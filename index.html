@@ -18,20 +18,70 @@
         <h1>Foodie Tool</h1>
         <nav>
             <ul class="nav_container">
-                <li class="nav_item">Articles</li>
-                <li class="nav_item"> Temperature</li>
-                <li class="nav_item">Quizz</li>
+                <li> <a class="nav_item" href="#" onclick="showArticlesSection()" ; return false;>Articles</a></li>
+                <li> <a class="nav_item" href="#" onclick="showTemperatureSection()" ; return false;>Temperature</a>
+                </li>
+                <li> <a class="nav_item" href="#" onclick="showQuizzSection()" ; return false;>Quizz</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-
+        <section id="articles" class="article_section">
+            <article class="article_card">
+                <h2>The rich gastronomic experiences that Peru has to offer</h2>
+                <img src="./img/food-peruvian-image.jpg">
+                <p>Your interesting advertisement feature about the “12 essential Chilean food experiences you can’t
+                    miss”, produced by Guardian Labs (17 February), included the Peruvian national cocktail, the pisco
+                    sour, as one of those experiences.</p>
+                <div><a target="blank"
+                        href="https://www.theguardian.com/world/2020/mar/01/the-rich-gastronomic-experiences-that-peru-has-to-offer">read
+                        more</a></div>
+            </article>
+            <article class="article_card">
+                <h2>The rich gastronomic experiences that Peru has to offer</h2>
+                <img src="./img/food-peruvian-image.jpg">
+                <p>Your interesting advertisement feature about the “12 essential Chilean food experiences you can’t
+                    miss”, produced by Guardian Labs (17 February), included the Peruvian national cocktail, the pisco
+                    sour, as one of those experiences.</p>
+                <div><a target="blank"
+                        href="https://www.theguardian.com/world/2020/mar/01/the-rich-gastronomic-experiences-that-peru-has-to-offer">read
+                        more</a></div>
+            </article>
+            <article class="article_card">
+                <h2>The rich gastronomic experiences that Peru has to offer</h2>
+                <img src="./img/food-peruvian-image.jpg">
+                <p>Your interesting advertisement feature about the “12 essential Chilean food experiences you can’t
+                    miss”, produced by Guardian Labs (17 February), included the Peruvian national cocktail, the pisco
+                    sour, as one of those experiences.</p>
+                <div><a target="blank"
+                        href="https://www.theguardian.com/world/2020/mar/01/the-rich-gastronomic-experiences-that-peru-has-to-offer">read
+                        more</a></div>
+            </article>
+        </section>
+        <section id="temperature" class="section hide">
+            <p>the temperature is 25°C</p>
+        </section>
+        <section id="quizz" class="section hide">
+            <p>this is a quizz</p>
+        </section>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap" rel="stylesheet">
+        <a href="https://www.instagram.com/?hl=es-la" target="blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"
+                class="Instagram_img icon" width="36px"/></a>
+        <a href="https://www.tiktok.com/es/" target="blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046126.png" alt="TikTok" class="TikTok_img icon"
+                width="36px"/></a>
+        <a href="https://es-la.facebook.com/" target="blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook" class="Facebook_img icon"
+                width="36px"/></a>
+        <p>✨Copywright &copy; 2022✨. Todos los derechos reservados. Página web diseñada por Leonardo PB 🧑‍💻.</p>
     </footer>
+
+    <script src=" ./index.js"></script>
 
 </body>
 
