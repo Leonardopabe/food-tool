@@ -57,18 +57,44 @@
                         more</a></div>
             </article>
         </section>
-        <section id="temperature" class="section">
+        <section id="temperature" class="section hide">
             <h2>Converter calculator</h2>
-            <label>
-                °Celsius <input type="number" name="celsius" />               
-             </label>
-             <label>
-                °Farenheit <input type="number" name="farenheit" />               
-             </label>
-             <label>
-                Kelvin <input type="number" name="kelvin" />              
-             </label>
-             <button type="button">Converter</button></p>
+            <div>
+                <label>
+                    °Celsius <input id="c-celsius" class="input_temperature" type="number" name="celsius" />               
+                 </label>
+                 <button id="c-converter-button" class="converter_button" type="button">Converter</button>
+                 <label>
+                    °Farenheit <input id="c-farenheit" class="input_temperature" type="number" name="farenheit" />               
+                 </label>
+                 <label>
+                    Kelvin <input id="c-kelvin" class="input_temperature" type="number" name="kelvin" />              
+                 </label> 
+            </div>
+            <div>
+                <label>
+                    °Farenheit<input id="f-farenheit" class="input_temperature" type="number" name="farenheit" />               
+                 </label>
+                 <button id="f-converter-button" class="converter_button" type="button">Converter</button>
+                 <label>
+                    °Celsius <input id="f-celsius" class="input_temperature" type="number" name="celsius" />               
+                 </label>
+                 <label>
+                    Kelvin <input id="f-kelvin" class="input_temperature" type="number" name="kelvin" />              
+                 </label> 
+            </div>
+            <div>
+                <label>
+                    Kelvin <input id="k-kelvin" class="input_temperature" type="number" name="kelvin" />               
+                 </label>
+                 <button id="k-converter-button" class="converter_button" type="button">Converter</button>
+                 <label>
+                    °Farenheit <input id="k-farenheit" class="input_temperature" type="number" name="farenheit" />               
+                 </label>
+                 <label>
+                    °Celsius <input id="k-celsius" class="input_temperature" type="number" name="celsius" />              
+                 </label> 
+            </div>                
         </section>
         <section id="quizz" class="section hide">
             <p>this is a quizz</p>
@@ -86,7 +112,7 @@
         <a href="https://es-la.facebook.com/" target="blank">
             <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook" class="Facebook_img icon"
                 width="36px"/></a>
-        <p>✨Copywright &copy; 2022✨. Todos los derechos reservados. Página web diseñada por Leonardo PB 🧑‍💻.</p>
+        <p>✨Copyright &copy; 2022✨. Todos los derechos reservados. Página web diseñada por Leonardo PB 🧑‍💻.</p>
     </footer>
 
     <script src=" ./index.js"></script>

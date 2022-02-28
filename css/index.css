@@ -75,6 +75,21 @@ h1 {
   font-weight: 600;
 }
 
+.converter_button {
+    background-color: #222;
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.input_temperature {
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    background-color: rgb(245, 168, 168);
+    border: 0;
+}
+
 .footer {
   color: #222;
   background-color: #e288f9;
